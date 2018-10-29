@@ -1,11 +1,17 @@
 Projects:
 
 https://www.projectalpha.com 
+
 https://nerdist.com/
+
 https://geekandsundry.com/
+
 https://www.myhomeclimate.com/
+
 http://angelpac.com/
+
 https://quilohome.com/
+
 https://glofx.com/
 https://www.putpost.com/
 https://angelpac.com/angelpacspa/
