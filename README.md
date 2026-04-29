@@ -7,7 +7,7 @@ Akismet is a spam protection service trusted by 100M+ websites, including enterp
 - Built a custom WordPress theme from scratch following WordPress coding standards and Automattic's internal engineering expectations
 - Converted high-fidelity Figma designs into pixel-accurate, fully responsive WordPress templates
 - Developed custom Gutenberg blocks for unique layout patterns and components
-- Implemented Custom Post Types (CPT) and taxonomies to model site-specific content structures such as Exhibitions, Screening Room entries, and archival secret collections
+- Implemented Custom Post Types (CPT) and taxonomies.
 - Implemented page-level settings for flexible, editor-controlled layout variations without developer intervention
 - Performed front-end performance optimizations improving Core Web Vitals on a high-traffic, globally accessed site
 
@@ -19,37 +19,10 @@ A US-based nonprofit advocacy platform dedicated to eliminating the rape kit tes
 ## Contributions
 - Converted Figma designs into a pixel-accurate, responsive WordPress theme
 - Developed custom Gutenberg blocks to support dynamic content sections
-- Implemented Custom Post Types (CPT) and taxonomies to model site-specific content structures such as Exhibitions, Screening Room entries, and archival secret collections
+- Implemented Custom Post Types (CPT) and taxonomies.
 - Built and maintained multiple theme components across the site
 - Implemented performance optimizations to improve page load speed and overall site efficiency
-
-# Writer Beware 
-URL: https://writerbeware.blog/
-
-Official blog of Writer Beware®, sponsored by the Science Fiction and Fantasy Writers Association (SFWA)
-
-## Contributions
-- Built a custom WordPress theme from scratch tailored to the site's editorial and brand requirements
-- Converted Figma design mockups into a fully functional, pixel-accurate WordPress theme
-- Developed custom Gutenberg blocks to support structured content presentation across editorial post types
-- Implemented Custom Post Types (CPT) and taxonomies to model site-specific content structures such as Exhibitions, Screening Room entries, and archival secret collections
-- Data migration from blogger.
-- Applied performance optimizations covering asset loading, image handling, and Core Web Vitals improvements
-- Delivered on WordPress.com infrastructure (Pressable-hosted), working within platform constraints
-
-# McKenna Academy of Natural Philosophy 
-URL: https://mckenna.academy/
-
-A WordPress-powered platform for the McKenna Academy — an educational nonprofit dedicated to ethnobiology, psychedelic research, and indigenous plant wisdom, founded by ethnopharmacologist Dennis McKenna Ph.D.
-
-## Contributions
-- Built the full WordPress Full site editing theme from scratch, translating Figma designs into a pixel-perfect, production-ready theme
-- Developed custom Gutenberg blocks to support editorial flexibility across program pages, podcast listings, blog, and video archive sections
-- Implemented a filterable program grid with dynamic taxonomy-based filtering (courses, seminars, symposiums, retreats, conservation)
-- Implemented Custom Post Types (CPT) and taxonomies to model site-specific content structures such as Exhibitions, Screening Room entries, and archival secret collections
-- Integrated WooCommerce for the shop and donation flows
-- Optimized site performance — asset loading, image handling via Jetpack/Photon, and Core Web Vitals improvements
-- Delivered the build on WordPress.com infrastructure hosted via Pressable, following Automattic's enterprise deployment standards
+- Engineered filterable blog and CPT content systems with dynamic querying capabilities, enhancing content navigation and user experience across large-scale WordPress properties.
 
 # PostSecret — Digital Museum of Secrets
 URL: https://museum.postsecret.com/
@@ -61,7 +34,36 @@ A WordPress-powered platform for the PostSecret — Digital Museum of Secrets.
 - Developed custom Gutenberg blocks in React to support unique content presentations — including exhibition galleries, secret-sharing UI, and screening room layouts
 - Implemented Custom Post Types (CPT) and taxonomies to model site-specific content structures such as Exhibitions, Screening Room entries, and archival secret collections
 - Delivered a tailored WordPress dashboard panel to give editors granular control over site-specific settings without requiring direct code access
+- Engineered an anonymous post submission system with built-in rate limiting using a Custom Post Type (CPT), paired with a moderation workflow for editorial approval before content goes live.
+- Extended the same architecture to support anonymous voice posts, implementing CPT-based rate limiting and a dedicated approval pipeline for audio content moderation.
 - Applied site-wide performance optimizations including asset loading strategies, image handling, and query efficiency to maintain a smooth experience under Automattic/Pressable infrastructure
+
+# Writer Beware 
+URL: https://writerbeware.blog/
+
+Official blog of Writer Beware®, sponsored by the Science Fiction and Fantasy Writers Association (SFWA)
+
+## Contributions
+- Built a custom WordPress theme from scratch tailored to the site's editorial and brand requirements
+- Converted Figma design mockups into a fully functional, pixel-accurate WordPress theme
+- Developed custom Gutenberg blocks to support structured content presentation across editorial post types
+- Implemented Custom Post Types (CPT) and taxonomies.
+- Data migration from blogger.
+- Applied performance optimizations covering asset loading, image handling, and Core Web Vitals improvements
+
+# McKenna Academy of Natural Philosophy 
+URL: https://mckenna.academy/
+
+A WordPress-powered platform for the McKenna Academy — an educational nonprofit dedicated to ethnobiology, psychedelic research, and indigenous plant wisdom, founded by ethnopharmacologist Dennis McKenna Ph.D.
+
+## Contributions
+- Built the full WordPress Full site editing theme from scratch, translating Figma designs into a pixel-perfect, production-ready theme
+- Developed custom Gutenberg blocks to support editorial flexibility across program pages, podcast listings, blog, and video archive sections
+- Implemented a filterable program grid with dynamic taxonomy-based filtering (courses, seminars, symposiums, retreats, conservation)
+- Implemented Custom Post Types (CPT) and taxonomies
+- Integrated WooCommerce for the shop and donation flows
+- Optimized site performance — asset loading, image handling via Jetpack/Photon, and Core Web Vitals improvements
+- Successfully built a donation system from the ground up — handling end-to-end payment integration, donor records, and reporting functionality.
 
 # Quiet Capital
 URL: https://quiet.com/
@@ -109,7 +111,6 @@ Worked across a diverse portfolio of 30+ client sites spanning nonprofits, media
 URL:
 
 - https://refugees.novaukraine.org/
-- https://donate.mckenna.academy/
 - https://siti.org/
 - https://donate.mckenna.academy/
 - https://dayoneapp.com/
@@ -140,14 +141,18 @@ URL:
 
 ## Contributions
 
-- Built FSE (Full Site Editing) theme components from scratch, following WordPress block theme architecture and coding standards
-- Converted Figma designs into pixel-accurate, responsive theme components using block-based markup and theme.json configuration
-- Developed custom Gutenberg blocks using React and the Block Editor API to meet client-specific content requirements
-- Implemented custom block functionality including dynamic rendering, block attributes, and InspectorControls for editor UX
+- Architected Full Site Editing (FSE) themes from scratch, adhering to WordPress block theme architecture and VIP coding standards throughout
+- Translated Figma designs into pixel-accurate, responsive block themes using block markup and theme.json configuration
+- Built custom Gutenberg blocks with React and the Block Editor API, implementing dynamic rendering, block attributes, and InspectorControls for an enhanced editor experience
+- Delivered custom admin dashboard interfaces, giving site owners granular control over site-specific settings and configurations
+- Engineered membership-based content access control with role-aware restriction logic for gated content experiences
+- Developed a multi-filter Custom Post Type archive with lazy-loaded pagination for optimized browsing performance
+- Implemented a custom WooCommerce checkout flow with a conversion-focused UX, including automated product splitting across multiple shipping addresses within a single order
+- Built a CSV-based bulk data import/export system for streamlined content and data management workflows
 - Integrated email automation workflows to support client communication and engagement pipelines
-- Delivered tailored admin dashboard functionality, providing site owners with granular control over site-specific settings
-- Applied targeted performance optimizations across multiple sites, covering asset loading, query efficiency, and render-blocking resource reduction
-- Consistently applied WordPress hooks and followed WordPress VIP coding standards throughout all development work
+- Applied targeted performance optimizations across multiple sites, including asset loading strategies, query efficiency improvements, and render-blocking resource elimination
+- Implemented persistent dark mode with user preference retention across sessions
+- Consistently leveraged WordPress hooks and filters following WordPress VIP coding standards across all deliverables
 
 # Open Source Contributions
 
