@@ -155,7 +155,7 @@ URL:
 # Open Source Contributions
 
 ## WordPress Core
-- Active contributor across **WordPress 5.5, 5.9, 6.0, and 6.9**
+- Active contributor across **WordPress 5.5, 5.9, 6.0, 6.9 and 7.0
 - Translation contributions for **WordPress 5.6.x and 6.9.x** (Bengali locale)
 
 ## GitHub — Organization Contributions
