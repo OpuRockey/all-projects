@@ -87,8 +87,6 @@ URL: https://semianalysis.com/
 - Maintained paywall functionality for paid/premium content throughout and after migration,
   ensuring no unauthorized access to gated articles
 - Ensured zero content loss across hundreds of newsletter issues and articles
-- Configured WordPress to match Substack's subscriber experience on the new platform
-- Coordinated the cutover with minimal downtime impact on an active, high-traffic publication
 
 # Open Channels FM
 URL: https://openchannels.fm/
